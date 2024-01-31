@@ -1,0 +1,193 @@
+   *{
+    box-sizing: border-box;
+   /* background-color: black; */
+   }
+   body{
+    font-family: 'Roboto', sans-serif;
+   margin: 0;
+   }
+   h1{font-size: 3.5em;}
+   h2{font-size: 2.7em;}
+   h2{font-size: 2em;}
+
+   p{font-size: 1.25em;}
+   ul{list-style: none;}
+   li{font-size: 1.25em;}
+   .color-acento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(219, 141, 23);
+    border: 2px solid rgb(219, 141, 23); 
+  
+}
+
+   button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color:black;
+    background-color: rgb(219, 141, 23);
+
+   }
+   button:hover{
+    background-color: rgb(231, 213, 188);
+   }
+   .container{
+    max-width: 1200px;
+    margin: auto;
+   }
+   header{
+    
+    background-color: rgb(0, 0, 0);
+   }
+   header .logo{
+    margin: 0%;
+    padding: 25px 40px;
+    font-weight: bold;
+    color: blanchedalmond;
+    font-size: 2em;
+   }
+header .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(219, 141, 23)
+}
+header a:hover{
+    color: rgb(189, 174, 152);
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: blanchedalmond;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url(https://cuarteldelmetal.com/wp-content/uploads/2023/07/armado-pc-gamers-sp-digital.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+#somosTecno{
+    color:rgb(0, 0, 0);
+ 
+    background-color: black;
+}
+#somosTecno .container{
+    text-align: center;
+    padding: 200px 12px;
+    color: blanchedalmond;
+}
+#sucursal {
+    color:rgb(0, 0, 0);
+ 
+    background-color: black;
+}
+#sucursal .container{
+    text-align: center;
+    padding: 200px 12px;
+    color: blanchedalmond;
+
+}
+#sucursal .container a {
+    color: blanchedalmond;
+ }
+#sucursal .container a:hover {
+   color: rgb(219, 141, 23)
+
+}
+#InfoProductos {
+    
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+  }
+#InfoProductos .container{
+  padding: 100px 0px;
+}
+#InfoProductos h2{
+    margin-top: 0%;
+}
+#InfoProductos p{
+    display: none;
+}
+#InfoProductos .Carta{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.Carta.carta1 {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url(https://www.movilzona.es/app/uploads-movilzona.es/2022/02/iphone-12-pro-1200x675.jpg);
+ 
+
+}
+
+.Carta.carta2 {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url(https://media.cnn.com/api/v1/images/stellar/prod/221110144914-best-laptops-2022-lead-image-cnnu.jpg?c=original);
+
+}
+
+.Carta.carta3 {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url(https://www.cnet.com/a/img/resize/bebef835df90640f9aa2e4a2f2a2699cf53a301f/hub/2020/10/26/b60bfe6f-3193-4381-b0d4-ac628cdcc565/img-1419.jpg?auto=webp&width=1200);  
+}
+#Garantia{
+    text-align: center;
+    padding: 200px 12px;
+    color: blanchedalmond;
+    background-color: black;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url(https://i0.wp.com/architecnologia.es/wp-content/uploads/2021/01/reparacion-pc.jpg?resize=800%2C445&ssl=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+}
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
