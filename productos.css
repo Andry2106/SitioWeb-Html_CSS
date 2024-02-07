@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    background-color: #DA8D17;
+    font-size: 32px;
+    font-weight: bold;
+    color: blanchedalmond;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: auto;
+    text-align: center; /* Centro el texto del logo */
+    padding: 20px; /* Añado un padding para que sea más visible */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DA8D17;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover, /* Cambia el color al pasar el cursor sobre las opciones del menú */
+.cta:hover { /* Cambia el color al pasar el cursor sobre los botones de compra */
+    color: blanchedalmond;
+}
+
+.container {
+    max-width: 2500px;
+    margin: 0 auto;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cta {
+    background-color: #DA8D17;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 18px;
+    color: #DA8D17;
+}
+
+footer {
+    background-color: #DA8D17;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
